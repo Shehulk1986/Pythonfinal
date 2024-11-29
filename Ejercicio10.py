@@ -1,5 +1,7 @@
 #Valor pagar cliente
 
+def val()
+
 Valor = int(input("ingrese el Valor a pagar:"))
 
 if Valor > 20000:
