@@ -9,19 +9,19 @@ materia = input("ingresa el nombre del materia: ")
 
 # Ingresar calificación final y validar que esté entre 1 y 10
 
-while True:
-  try:
+while True:    # true crea bluque infinito
+  try:         # se utiliza para manejar excepciones en el codigo
         calificacion_final = float(input("Ingrese la calificación final(1-10): "))
         if 1 <= calificacion_final <=10:
-          break
+          break     # palabra que se usa para salir del bucle
         else:
             print("La calificación debe estar entre 1 y 10.")
 
-  except ValueError:
+  except ValueError:  # Clausula que se utiliza para manejar excepciones en el codigo
     print("La calificación debe ser un número.")   
     
 # Mostrar información en pantalla         
-print("'/nInformación del aprendiz:")
+print("'/nInformación del aprendiz:")    # /n salto de linea
 print(f"Nombre: {nombre_aprendiz}")
 print(f"materia: {materia}")
 print(f"Calificación final: {calificacion_final:.2f}")
