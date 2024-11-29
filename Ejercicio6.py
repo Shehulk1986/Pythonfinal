@@ -9,7 +9,7 @@ continuar = 's' # Variable para controlar la ejecución del programa
 # Estructura while para realizar converciones 
 while continuar.lower() == 's':   # == se utiliza para comparar 2 valores y validar si son iguales.
     # Pedir al usuario la cantidad de dólares de dólares a convertir
-    dolares = float(input("Ingresa la cantidad de dólaress a convertir: "))
+    dolares = float(input("Ingresa la cantidad de dólares a convertir: "))
     
     # Calcular la cantidad de pesos equivalente
     pesos = dolares*tasa_cambio

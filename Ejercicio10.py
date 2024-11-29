@@ -1,6 +1,6 @@
 #Valor pagar cliente
 
-def val()
+def val(valor, valor_descuento)
 
 Valor = int(input("ingrese el Valor a pagar:"))
 
