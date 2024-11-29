@@ -13,13 +13,14 @@ while continuar.lower() == 's':
     pesos = dolares*tasa_cambio
     
     # Mostrar el resultado de la converción
+    # 2f significa que se deben tomar 2 decimales en la salida numerica
     print(f"{dolares} dólars equivalen a {pesos:2f}) pesos")
     
     # Preguntar al usuario si desea seguir realizando conversiones
     continuar = input("¿Desea seguir realizando conversiones? (s/n):")
     
     # Validar la entrada del usuario
-    while continuar.lower() not in ['s','n']:
+    while continuar.lower() not in ['s','n']:  #Lower coloca las letras en miniscula
         continuar = input("Entrada inválida. ¿Desea seguir realizando conversiones? (s/n)")
     
     # Mostrar mensaje de despedida    

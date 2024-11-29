@@ -14,7 +14,7 @@ fin = int(input("Ingrese el numero de fin del rango: "))
  
 for numero in range(inicio, fin + 1):
      if numero % 2 !=0:
-         numeros_impares.append(numero)
+         numeros_impares.append(numero) # append agrega un elemento al final de la lista
          
 # Imprimir los números impares
 print("Los numeros impares dentro del rango son:")     

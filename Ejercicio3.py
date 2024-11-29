@@ -1,6 +1,6 @@
 #Definir variable
 
-numeros_a_mostrar = 30 # Número máximo a mostrar
+numeros_a_mostrar = 50 # Número máximo a mostrar
 saltos_de_linea = 7 # Número de números por linea 
 
 # Mostrar números con saltos de línea
