@@ -1,13 +1,18 @@
 #Valor pagar cliente
 
-def val(valor, valor_descuento)
+#Definir variables
+precio = 0
+precio_final = 0
 
-Valor = int(input("ingrese el Valor a pagar:"))
+#Pedir al usuario el precio
+precio = float(input("Ingrese el precio del producto: $"))
 
-if Valor > 20000:
-    Pago = Valor * 0.8
-    print("Valor a pagar es de:" , Pago)
-    
+#Calcular el precio final
+if precio > 20000:
+    descuento = precio * 0.20
+    precio_final = precio - descuento
 else:
-    print("El Valor a pagar se mantiene igual:" , Valor)
-    
+    precio_final = precio
+
+#Imprimir el precio final
+print(f"El precio final a pagar es: ${precio_final:.2f}")
